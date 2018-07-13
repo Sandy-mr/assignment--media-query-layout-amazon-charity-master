@@ -1,0 +1,81 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.amazon__logo {
+    display: flex;
+    background: #DDDDDD;
+    padding: 20px;
+}
+
+img.amazon___images {
+    width: 60%;
+}
+
+img.amazon___images.right {
+    width: 30%;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.info_pers {
+	h1 {
+	    color: #007C4C;
+	    font-family: 'PT Mono', monospace;
+	}
+	&.head {
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+.container-people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+	.info_pers {
+	    width: 30%;
+	    padding: 10px;
+	    border: 1px solid #ccc;
+	    margin-bottom: 20px;
+	    border-radius: 5px;
+	}
+}
+
+
+.info_pers img.___images {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+	div.container-people .info_pers {
+	    width: 45%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	div.container-people div.info_pers {
+	    width: 100%;
+	}
+	.container-people {
+	    padding: 10px;
+	}
+
+	.container-people {
+	    padding: 10px;
+	}
+
+	.amazon__logo img.amazon___images {
+	    width: 100%;
+	    padding-left: 0;
+	}
+
+	.amazon__logo {
+	    flex-wrap: wrap;
+	}
+}
